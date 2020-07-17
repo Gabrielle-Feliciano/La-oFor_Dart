@@ -3,8 +3,8 @@ void main()
 {
     int cont;
     
-    for (cont = 01; cont <=99; cont++)
-        if (cont % 2 != 0) {
+    for (cont = 01; cont <=99; cont=cont+2)
+     {
         print(cont);
     }
 }
